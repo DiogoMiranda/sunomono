@@ -10,5 +10,4 @@ dependencies:
 
 test:
   override:
-    - mkdir Sunomono_test
     - bundle exec rake spec

@@ -8,7 +8,7 @@ describe Sunomono do
   end
 
   after(:each) do
-    Dir.chdir('..') unless Dir.exist?(@project_name)
+    # Dir.chdir('..') unless Dir.exist?(@project_name)
        FileUtils.rm_rf(@project_name)
   end
 
